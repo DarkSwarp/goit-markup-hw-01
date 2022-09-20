@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,12 +9,11 @@
 <body>
     <header>
         <nav>
-            <span>Web<span>Studio</span><a href=""></a></span>
-            
+            <a href="/"><span>Web<span>Studio</span></span></a>
             <ul>
-                <li><a href="">Студія</a></li>
-                <li><a href="">Портфоліо</a></li>
-                <li><a href="">Контакти</a></li>
+                <li><a href="/">Студія</a></li>
+                <li><a href="#portfolio">Портфоліо</a></li>
+                <li><a href="#contact">Контакти</a></li>
             </ul>
         </nav>
         <ul>
@@ -28,6 +27,7 @@
             <button type="button">Замовити послугу</button>
         </section>
         <section>
+            <h2>Наші переваги</h2>
             <ul>
                 <li>
                     <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -48,7 +48,7 @@
             </ul>
         </section>
         <section>
-            <h2>Чим ми займаємося</h2>
+            <h2 id="portfolio">Чим ми займаємося</h2>
             <ul>
                 <li><img src="./image/box 1.jpg" alt="Програмування" width="370" /></li>
                 <li><img src="./image/box 2.jpg" alt="Дизайн" width="370" /></li>
@@ -61,32 +61,37 @@
                 <li>
                     <figure>
                         <img src="./image/team card 1.jpg" alt="Ігор Дем'яненко Product Designer" width="270" />
-                        <figcaption>Ігор Дем'яненко<span><br /><span>Product Designer</span></span></figcaption>
+                        <figcaption><h3>Ігор Дем'яненко</h3 lang="en">Product Designer</figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
                         <img src="./image/team card 2.jpg" alt="Ольга Рєпіна Frontend Developer" width="270" />
-                        <figcaption>Ольга Рєпіна<span><br /><span>Frontend Developer</span></span></figcaption>
+                        <figcaption><h3>Ольга Рєпіна</h3 lang="en">Frontend Developer</figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
                         <img src="./image/team card 3.jpg" alt="Микола Тарасов Marketing" width="270" />
-                        <figcaption>Микола Тарасов<span><br /><span>Marketing</span></span></figcaption>
+                        <figcaption><h3>Микола Тарасов</h3 lang="en">Marketing</figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
                         <img src="./image/team card 4.jpg" alt="Михайло Єрмаков UI Designer" width="270" />
-                        <figcaption>Михайло Єрмаков<span><br /><span>UI Designer</span></span></figcaption>
+                        <figcaption><h3>Михайло Єрмаков</h3 lang="en">UI Designer</figcaption>
                     </figure>
                 </li>
             </ul>
-
-
-
         </section>
     </main>
+    <footer id="contact">
+        <a href="/"><span>Web<span>Studio</span></span></a>
+        <ul>
+            <li>м. Київ, пр-т Лесі Українки, 26</li>
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="tel:++380961111111">+38 096 111 11 11</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
